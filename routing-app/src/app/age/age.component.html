@@ -1,0 +1,4 @@
+<h3 *ngIf="currentAge">My current age is: {{currentAge}}</h3>
+<p>Enter your age</p>
+<input type="text" #age >
+<button (click)= "showMe(age.value)">Show me!</button>
